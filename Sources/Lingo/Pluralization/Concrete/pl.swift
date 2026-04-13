@@ -4,7 +4,7 @@ final class pl: PluralizationRule {
     
     let locale: LocaleIdentifier = "pl"
     
-    var availablePluralCategories: [PluralCategory] = [.one, .few, .many, .other]
+    let availablePluralCategories: [PluralCategory] = [.one, .few, .many, .other]
     
     func pluralCategory(forNumericValue n: UInt) -> PluralCategory {
         let mod10 = n % 10

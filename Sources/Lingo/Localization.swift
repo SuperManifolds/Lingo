@@ -5,7 +5,7 @@ import Foundation
 /// It has 2 cases:
 /// - `universal` - in case pluralization is not needed and one value is used for all plural categories
 /// - `pluralized` - in case of different localizations are defined based on a PluralCategory
-public enum Localization {
+public enum Localization: Sendable {
     
     case universal(value: String)
     case pluralized(values: [PluralCategory: String])

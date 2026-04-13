@@ -1,6 +1,6 @@
 import Foundation
 
-final class LocalizationsModel {
+final class LocalizationsModel: @unchecked Sendable {
     
     enum LocalizationResult {
         case success(localization: String)

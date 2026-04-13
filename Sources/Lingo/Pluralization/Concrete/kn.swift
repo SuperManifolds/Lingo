@@ -1,6 +1,6 @@
 import Foundation
 
-final class kn: Other, PluralizationRule {
+final class kn: Other, PluralizationRule, @unchecked Sendable {
 
     let locale: LocaleIdentifier = "kn"
 

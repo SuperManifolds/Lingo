@@ -1,7 +1,7 @@
 import Foundation
 
 /// Used for Belarusian, Bosnian, Croatian, Russian, Serbian, Ukrainian.
-class EastSlavic: AbstractPluralizationRule {
+class EastSlavic: AbstractPluralizationRule, @unchecked Sendable {
     
     let availablePluralCategories: [PluralCategory] = [.one, .few, .many, .other]
     

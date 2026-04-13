@@ -1,7 +1,7 @@
 import Foundation
 
 /// Used for Cornish, Inari Sami, Inuktitut, Lule Sami, Nama, Northern Sami, Skolt Sami, Southern Sami
-class OneTwoOther: AbstractPluralizationRule {
+class OneTwoOther: AbstractPluralizationRule, @unchecked Sendable {
     
     let availablePluralCategories: [PluralCategory] = [.one, .two, .other]
     

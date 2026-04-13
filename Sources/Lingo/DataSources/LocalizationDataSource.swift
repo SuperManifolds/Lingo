@@ -3,7 +3,7 @@ import Foundation
 /// Types conforming to this protocol can be used to initialize Lingo.
 ///
 /// Use it in case your localizations are not stored in JSON files, but rather in a database or other storage technology.
-public protocol LocalizationDataSource {
+public protocol LocalizationDataSource: Sendable {
     
     /// Return a list of available locales.
     /// Lingo will query for localizations for each of these locales in localizations(for:) method.

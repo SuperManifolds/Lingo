@@ -1,6 +1,6 @@
 import Foundation
 
-class OneOther: AbstractPluralizationRule {
+class OneOther: AbstractPluralizationRule, @unchecked Sendable {
     
     func pluralCategory(forNumericValue n: UInt) -> PluralCategory {
         return n == 1 ? .one : .other

@@ -3,7 +3,7 @@ import Foundation
 public typealias LocalizationKey = String
 public typealias LocaleIdentifier = String
 
-public final class Lingo {
+public final class Lingo: Sendable {
     
     public let defaultLocale: LocaleIdentifier
     public let dataSource: LocalizationDataSource

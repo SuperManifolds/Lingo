@@ -1,7 +1,7 @@
 import Foundation
 
 /// Used for Czech, Slovak.
-class WestSlavic: AbstractPluralizationRule {
+class WestSlavic: AbstractPluralizationRule, @unchecked Sendable {
     
     let availablePluralCategories: [PluralCategory] = [.one, .few, .other]
     

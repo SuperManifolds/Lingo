@@ -1,6 +1,6 @@
 import Foundation
 
-class OneUptoTwoOther: AbstractPluralizationRule {
+class OneUptoTwoOther: AbstractPluralizationRule, @unchecked Sendable {
     
     let availablePluralCategories: [PluralCategory] = [.one, .other]
     

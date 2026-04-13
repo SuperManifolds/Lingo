@@ -2,7 +2,7 @@ import Foundation
 
 /// Represents plural category from Unicode Common Locale Data
 /// http://cldr.unicode.org/index/cldr-spec/plural-rules
-public enum PluralCategory: String {
+public enum PluralCategory: String, Sendable {
     case zero
     case one    // singular
     case two    // dual

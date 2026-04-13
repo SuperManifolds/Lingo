@@ -1,6 +1,6 @@
 import Foundation
 
-final class LocaleValidator {
+final class LocaleValidator: Sendable {
     
     private static let validLocaleIdentifiers: Set<String> = {
         /// Make sure locales are in the correct format as per [RFC 5646](https://datatracker.ietf.org/doc/html/rfc5646)

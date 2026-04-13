@@ -1,6 +1,6 @@
 import Foundation
 
-protocol AbstractPluralizationRule {
+protocol AbstractPluralizationRule: Sendable {
     
     /// Returns matching `PluralCategory` for given numeric value.
     /// http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html

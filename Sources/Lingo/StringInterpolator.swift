@@ -1,6 +1,6 @@
 import Foundation
 
-final class StringInterpolator {
+final class StringInterpolator: Sendable {
     
     private static let regularExpression = try! NSRegularExpression(pattern: "\\%\\{[^\\}]*\\}", options: []) // swiftlint:disable:this force_try
     

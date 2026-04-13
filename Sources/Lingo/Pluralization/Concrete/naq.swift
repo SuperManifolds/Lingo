@@ -1,6 +1,6 @@
 import Foundation
 
-final class naq: OneTwoOther, PluralizationRule {
+final class naq: OneTwoOther, PluralizationRule, @unchecked Sendable {
 
     let locale: LocaleIdentifier = "naq"
 

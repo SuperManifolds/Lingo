@@ -1,6 +1,6 @@
 import Foundation
 
-final class ja: Other, PluralizationRule {
+final class ja: Other, PluralizationRule, @unchecked Sendable {
 
     let locale: LocaleIdentifier = "ja"
 

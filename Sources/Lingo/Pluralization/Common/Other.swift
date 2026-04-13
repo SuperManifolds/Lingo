@@ -1,6 +1,6 @@
 import Foundation
 
-class Other: AbstractPluralizationRule {
+class Other: AbstractPluralizationRule, @unchecked Sendable {
     
     let availablePluralCategories: [PluralCategory] = [.other]
     

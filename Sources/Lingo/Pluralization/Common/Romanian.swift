@@ -1,7 +1,7 @@
 import Foundation
 
 /// Used for Moldavian, Romanian.
-class Romanian: AbstractPluralizationRule {
+class Romanian: AbstractPluralizationRule, @unchecked Sendable {
     
     let availablePluralCategories: [PluralCategory] = [.one, .few, .other]
     
